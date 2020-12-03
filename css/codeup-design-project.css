@@ -1,0 +1,28 @@
+:root {
+    --red: #E6563B;
+    --orange: #EB9DE6;
+    --green: #7CB06C;
+    --blue: #00ABA9;
+    --light: #F0F0F0;
+    --lightgray: #E6E6E6;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}

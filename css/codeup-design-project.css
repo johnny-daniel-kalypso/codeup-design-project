@@ -8,16 +8,19 @@
 }
 
 h1 {
+	font-family: 'Anton', sans-serif;
 	font-size: 104px;
 	color: var(--green);
 }
 
 h2 {
+	font-family: 'Abel', sans-serif;
 	font-size: 48px;
 	color: var(--orange);
 }
 
 h3 {
+	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 40px;
 	color: var(--red);
 }

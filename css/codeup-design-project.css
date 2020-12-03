@@ -44,3 +44,9 @@ h5 {
 	width: 18px;
 	height: 18px;
 }
+
+/*NEW STLYES GO BELOW*/
+
+body {
+	background: var(--lightgray);
+}

@@ -8,15 +8,18 @@
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 104px;
+    color: var(--green);
 }
 
 h2 {
     font-size: 48px;
+    color: var(--orange);
 }
 
 h3 {
     font-size: 40px;
+    color: var(--red);
 }
 
 h4 {
@@ -36,4 +39,3 @@ h5 {
     width: 18px;
     height: 18px;
 }
-

@@ -46,7 +46,7 @@ body {
 
 /*FOR THE HEADER LETTERING*/
 
-#logo {
+.circles {
 	width: 105px;
 	height: 105px;
 }
@@ -61,6 +61,68 @@ body {
 	text-align: center;
 }
 
+/*BIG DOTS*/
+
+#small-dots {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 90%;
+}
+
+#small-dots a {
+	margin: 0;
+	color: var(--light);
+}
+
+.firstPair {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px 0px;
+	/*width: 90%;*/
+	/*padding: 0 auto;*/
+}
+
+#big-dots {
+	color: var(--light);
+	margin: 0 auto;
+	/*display: flex;*/
+	justify-content: space-between;
+	width: 70%;
+	flex-wrap: wrap;
+	display: none;
+}
+
+#big-dots a {
+	margin: 0;
+	color: var(--light);
+}
+
+.circleRim {
+	border: 6px solid var(--light);
+	border-radius: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin: 0 20px;*/
+}
+
+.redCircle {
+	background: var(--red);
+}
+
+.orangeCircle {
+	background: var(--orange);
+}
+
+.greenCircle {
+	background: var(--green);
+}
+
+.blueCircle {
+	background: var(--blue);
+}
+
 /*HARD RULE*/
 
 #part-time {
@@ -71,6 +133,18 @@ body {
 @media screen and (min-width:576px) {
 	.page-header{
 		width: 100%;
+	}
+
+	#small-dots {
+		display: none;
+	}
+	#big-dots {
+		flex-wrap: nowrap;
+		display: flex;
+	}
+
+	.circleRim {
+		margin: 0;
 	}
 
 	#part-time {
@@ -84,6 +158,10 @@ body {
 @media screen and (min-width:768px) {
 	.page-header {
 		padding: 0 5%;
+	}
+
+	#big-dots {
+		width: 60%;
 	}
 
 	#part-time {

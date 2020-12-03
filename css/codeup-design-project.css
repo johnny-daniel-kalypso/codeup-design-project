@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
 	--red: #E6563B;
 	--orange: #EB9DE6;
 	--green: #7CB06C;
@@ -39,45 +38,4 @@ h5 {
 .icons {
 	width: 18px;
 	height: 18px;
-=======
-    --red: #E6563B;
-    --orange: #EB9DE6;
-    --green: #7CB06C;
-    --blue: #00ABA9;
-    --light: #F0F0F0;
-    --lightgray: #E6E6E6;
-}
-
-h1 {
-    font-size: 104px;
-    color: var(--green);
-}
-
-h2 {
-    font-size: 48px;
-    color: var(--orange);
-}
-
-h3 {
-    font-size: 40px;
-    color: var(--red);
-}
-
-h4 {
-    font-size: 32px;
-}
-
-h5 {
-    font-size: 28px;
-}
-
-#logo {
-    width: 105px;
-    height: 105px;
-}
-
-.icons {
-    width: 18px;
-    height: 18px;
->>>>>>> f95015eb084931b50b8c15304901515c9fbb8e89
 }

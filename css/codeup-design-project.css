@@ -10,21 +10,15 @@
 }
 
 h1 {
-	font-family: 'Anton', sans-serif;
-	font-size: 104px;
-	color: var(--green);
+	font-size: 64px;
 }
 
 h2 {
-	font-family: 'Abel', sans-serif;
 	font-size: 48px;
-	color: var(--orange);
 }
 
 h3 {
-	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 40px;
-	color: var(--red);
 }
 
 h4 {
@@ -35,7 +29,22 @@ h5 {
 	font-size: 28px;
 }
 
-.circles {
+h1, h2, h3, h4, h5 {
+	font-family: 'Anton', sans-serif;
+}
+
+body, h6 {
+	font-family: 'Abel', sans-serif;
+}
+
+body {
+	background: var(--lightgray);
+}
+
+
+/*NEW STLYES GO BELOW*/
+
+#logo {
 	width: 105px;
 	height: 105px;
 }
@@ -45,8 +54,26 @@ h5 {
 	height: 18px;
 }
 
-/*NEW STLYES GO BELOW*/
+.page-header {
+	width: 100%;
+	text-align: center;
+}
 
-body {
-	background: var(--lightgray);
+/* Small devices (phones and pocket devices, 576 and up) */
+@media screen and (min-width:576px) {
+	.page-header{
+		width: 100%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+	.page-header {
+		padding: 0 5%;
+	}
+}
+
+/* Large and extra large devices (desktops, 992px and up) */
+@media screen and (min-width:992px) {
+
 }

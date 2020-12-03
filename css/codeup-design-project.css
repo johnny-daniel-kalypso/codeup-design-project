@@ -26,3 +26,14 @@ h4 {
 h5 {
     font-size: 28px;
 }
+
+#logo {
+    width: 105px;
+    height: 105px;
+}
+
+.icons {
+    width: 18px;
+    height: 18px;
+}
+

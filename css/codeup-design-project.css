@@ -262,8 +262,7 @@ div>#work-containter {
 
 .theLast {
 	width: 300px;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
+	margin-left: 20px;
 	/*position: absolute;*/
 	margin-right: 5%;
 }

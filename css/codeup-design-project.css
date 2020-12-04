@@ -273,8 +273,10 @@ div>#work-containter {
 	margin-bottom: 20px;
 }
 
-.last-info h5 {
+.last-info p {
 	margin-bottom: 0;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
 }
 
 .last-info img {

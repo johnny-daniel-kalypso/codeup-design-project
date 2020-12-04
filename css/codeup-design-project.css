@@ -111,12 +111,17 @@ body {
 .page-header {
 	width: 100%;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 130px;
 }
 
 .circles {
 	width: 117px;
 	height: 117px;
+}
+
+.logo {
+	width: 105px;
+	height: 105px;
 }
 
 /*BIG DOTS*/

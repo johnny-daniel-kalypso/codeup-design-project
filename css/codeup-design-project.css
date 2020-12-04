@@ -57,13 +57,23 @@ body {
 	top: -10px;
 }
 
+.navigator a {
+	text-decoration: none;
+	color: black;
+	margin: 0 5px;
+}
+
 .navigator .ce {
 	display: none;
 	margin: 0 5px;
 }
 
 #logo {
-	position: relative;
+	/*position: absolute;*/
+}
+
+#ghost {
+	margin-top: 20px;
 }
 
 #ghost a {
@@ -75,7 +85,7 @@ body {
 /*FOR THE HEADER LETTERING*/
 
 #logo {
-	width: 105px;
+	width: 150px;
 	height: 105px;
 }
 
@@ -247,8 +257,8 @@ div>#work-containter {
 	/*NAVIGATOR*/
 	.navigator .ce {
 		display: inline-block;
-		top: -20px;
-		position: relative;
+		/*top: -20px;*/
+		/*position: relative;*/
 	}
 
 	#ghost {
@@ -303,6 +313,7 @@ div>#work-containter {
 
 	.navigator .ce {
 		position: static;
+		/*top: -30px;*/
 	}
 
 	#logo {

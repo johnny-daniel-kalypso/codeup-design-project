@@ -83,7 +83,7 @@ body {
 #ghost a {
 	text-decoration: none;
 	color: black;
-	margin: 5px;
+	margin: 0 5px;
 }
 
 #codeup-design {
@@ -111,7 +111,7 @@ body {
 .page-header {
 	width: 100%;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .circles {
@@ -194,8 +194,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-/*SELECTED WORK*/
 
+/*SELECTED WORK*/
 
 div>#work-containter {
 	justify-content: center;
@@ -218,7 +218,7 @@ div>#work-containter {
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	width: 100%;
 }
 
@@ -250,10 +250,6 @@ div>#work-containter {
 	list-style: none;
 }
 
-#selected-work>li>ul>li {
-	/*margin-left: 10px;*/
-}
-
 .hidden-till-small {
 	display: none;
 }
@@ -263,6 +259,7 @@ div>#work-containter {
 }
 
 /*THE LAST*/
+
 .theLast {
 	width: 300px;
 	border-left: 2px solid black;
@@ -356,13 +353,10 @@ div>#work-containter {
 
 	#work-containter {
 		width: calc(calc(640px / 3) * 3);
+		min-width: 50%;
+		margin-left: 5%;
 	}
 
-	/*#sw {*/
-	/*	width: 100%;*/
-	/*	padding-left: 10.5%;*/
-	/*	text-align: left;*/
-	/*}*/
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -404,7 +398,7 @@ div>#work-containter {
 
 	#sw {
 		width: 100%;
-		padding-left: 10.5%;
+		/*padding-left: 10.5%;*/
 		text-align: left;
 	}
 

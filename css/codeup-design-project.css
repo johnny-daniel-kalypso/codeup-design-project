@@ -69,25 +69,31 @@ body {
 }
 
 #logo {
-	/*position: absolute;*/
+	width: 150px;
+	/*height: 105px;*/
+	margin-bottom: 20px;
 }
 
 #ghost {
-	margin-top: 20px;
+	/*padding-top: 50px;*/
+	position: relative;
+	top: 10px;
 }
 
 #ghost a {
 	text-decoration: none;
 	color: black;
-	margin: 0 5px;
+	margin: 5px;
+}
+
+#codeup-design {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 
 /*FOR THE HEADER LETTERING*/
-
-#logo {
-	width: 105px;
-	height: 105px;
-}
 
 .icons {
 	/*width: 23px;*/
@@ -105,7 +111,7 @@ body {
 .page-header {
 	width: 100%;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 150px;
 }
 
 .circles {
@@ -302,6 +308,10 @@ div>#work-containter {
 		/*position: relative;*/
 	}
 
+	#logo {
+		margin-bottom: 0;
+	}
+
 	#ghost {
 		display: none;
 	}
@@ -315,6 +325,7 @@ div>#work-containter {
 	/*HEADER*/
 	.page-header{
 		width: 100%;
+		margin-top: 100px;
 	}
 
 	#small-dots {
@@ -375,6 +386,7 @@ div>#work-containter {
 	/*HEADER*/
 	.page-header {
 		padding: 0 5%;
+		margin-top: 50px;
 	}
 
 	/*BIG DOTS*/

@@ -85,7 +85,7 @@ body {
 /*FOR THE HEADER LETTERING*/
 
 #logo {
-	width: 150px;
+	width: 105px;
 	height: 105px;
 }
 
@@ -107,6 +107,7 @@ body {
 	text-align: center;
 	margin-top: 100px;
 }
+
 .circles {
 	width: 105px;
 	height: 105px;
@@ -192,12 +193,16 @@ div>#work-containter {
 }
 
 #work-containter {
-	max-width: 700px;
+	width:100%;
 }
 
 #sw {
 	width: 100%;
 	text-align: center;
+}
+#work-containter ul {
+	margin: 0;
+	padding: 0;
 }
 
 #selected-work {
@@ -223,7 +228,7 @@ div>#work-containter {
 #selected-work>li {
 	justify-content: space-between;
 	width: calc(640px / 3);
-	margin: 10px 0;
+	margin: 10px 10px;
 	list-style: none;
 	align-items: center;
 }
@@ -276,10 +281,10 @@ div>#work-containter {
 		width: 100%;
 	}
 
-	/*THE BIG DOTS*/
 	#small-dots {
 		display: none;
 	}
+
 	#big-dots {
 		flex-wrap: nowrap;
 		display: flex;
@@ -300,6 +305,16 @@ div>#work-containter {
 	.hidden-till-small {
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	#work-containter {
+		width: calc(calc(640px / 3) * 3);
+	}
+
+	#sw {
+		width: 100%;
+		padding-left: 10.5%;
+		text-align: left;
 	}
 }
 
@@ -338,6 +353,8 @@ div>#work-containter {
 	.hidden-on-xs {
 		display: flex;
 	}
+
+
 }
 
 /* Large and extra large devices (desktops, 992px and up) */

@@ -395,6 +395,7 @@ div>#work-containter {
 
 	#part-time {
 		width: 90%;
+		max-width: 891px;
 	}
 
 	#work-containter {
@@ -423,6 +424,11 @@ div>#work-containter {
 @media screen and (min-width:992px) {
 	/*NAVBAR*/
 	.navigator {
+		width: 891px;
+		margin: 0 auto;
+	}
+
+	#entire-div {
 		width: 891px;
 		margin: 0 auto;
 	}

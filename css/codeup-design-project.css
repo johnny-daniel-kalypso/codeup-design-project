@@ -218,7 +218,7 @@ div>#work-containter {
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -356,6 +356,10 @@ div>#work-containter {
 		margin-left: 5%;
 	}
 
+	#selected-work {
+		justify-content: space-between;
+	}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -401,13 +405,15 @@ div>#work-containter {
 		text-align: left;
 	}
 
-	.hidden-on-xs {
+	.hidden-till-small {
 		display: flex;
 	}
 
 	.hidden-till-medium{
 		display: block;
 	}
+
+
 
 }
 

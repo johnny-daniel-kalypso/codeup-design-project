@@ -237,7 +237,7 @@ div>#work-containter {
 #selected-work>li {
 	justify-content: space-between;
 	width: calc(640px / 3);
-	margin: 10px 10px;
+	margin: 10px 5px;
 	list-style: none;
 	align-items: center;
 }

@@ -267,6 +267,10 @@ div>#work-containter {
 	margin-right: 5%;
 }
 
+.theLast > h6 {
+	margin-bottom: 18px;
+}
+
 .last-info {
 	display: flex;
 	justify-content: space-between;

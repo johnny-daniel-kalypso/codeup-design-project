@@ -257,6 +257,43 @@ div>#work-containter {
 	display: none;
 }
 
+/*THE LAST*/
+.theLast {
+	width: 300px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	/*position: absolute;*/
+	margin-top: 100px;
+}
+
+.last-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.last-info h5 {
+	margin-bottom: 0;
+}
+
+.last-info img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+
+.last-tweet p {
+	margin-top: 20px;
+}
+
+.theLast i {
+	color: deepskyblue;
+}
+
+.theLast span {
+	font-weight: bold;
+}
+
 /* Small devices (phones and pocket devices, 576 and up) */
 @media screen and (min-width:576px) {
 	/*NAVIGATOR*/
